@@ -17,6 +17,8 @@ Public Class Form3
 
 		Randomize()
 
+		randomID = CInt(Int((799999 - 100000 + 1) * Rnd() + 100000))
+
 		Do
 			randomID = CInt(Int((799999 - 100000 + 1) * Rnd() + 100000))
 
